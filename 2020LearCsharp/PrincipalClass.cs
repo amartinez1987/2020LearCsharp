@@ -32,7 +32,10 @@ namespace _2020LearCsharp
             //_030ParameterThreadLambda.executeTest();
             //_031AbortThread.executeTest();
             //_032ShareVariableThreads.executeTest();
-            _033ThreadJoin.executeTest();
+            //_033ThreadJoin.executeTest();
+            //_034ThreadLocal.executeTest();
+            // _035ThreadContext.executeTest();
+            _036ThreadPool.executeTest();
         }
     }
 }
