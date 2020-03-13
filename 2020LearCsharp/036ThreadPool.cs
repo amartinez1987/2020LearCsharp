@@ -22,9 +22,6 @@ namespace _2020LearCsharp
                 ThreadPool.QueueUserWorkItem(state => DoWork(stateNumber));
             }
 
-
-           
-
             Console.ReadKey();
         }
     }

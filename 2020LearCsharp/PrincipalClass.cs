@@ -6,7 +6,7 @@ namespace _2020LearCsharp
 {
     class PrincipalClass
     {
-        public static void Main(String [] args)
+        public static void Main(String[] args)
         {
 
             //_001ParallelInvoke.ExecuteTest();
@@ -35,7 +35,17 @@ namespace _2020LearCsharp
             //_033ThreadJoin.executeTest();
             //_034ThreadLocal.executeTest();
             // _035ThreadContext.executeTest();
-            _036ThreadPool.executeTest();
+            //_036ThreadPool.executeTest();
+            //_037BlockingUserInterface.executeTest();
+            //_038UsingATask.executeTest();
+            //_040AwaitCacht.executeTest();
+            //_041AwatingParrallel.executeTest();
+            //_042BlockingCollection.executeTest();
+            //_043ConcurrentQueue.executeTest();
+            //_044CouncurrentStack.executeTest();
+            //_045ConcurrentBag.executeTest();
+            _046ConcurrentDictionary.executeTest();
+
         }
     }
 }
