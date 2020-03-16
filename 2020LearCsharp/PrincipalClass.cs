@@ -46,7 +46,12 @@ namespace _2020LearCsharp
             //_045ConcurrentBag.executeTest();
             //_046ConcurrentDictionary.executeTest();
             //_047SingleTaksSumming.executeTest();
-            _048BadTaskInteraction.executeTest();
+            //_048BadTaskInteraction.executeTest();
+            //_049Locking.executeTest();
+            //_050LockingSensible.executeTest();
+            //_051LockingMonitor.executeTest();
+            //_052SequentialLocking.executeTest();
+            _053DeadLockedSequencial.executeTest();
 
         }
     }
