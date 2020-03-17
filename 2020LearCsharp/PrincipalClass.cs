@@ -51,7 +51,11 @@ namespace _2020LearCsharp
             //_050LockingSensible.executeTest();
             //_051LockingMonitor.executeTest();
             //_052SequentialLocking.executeTest();
-            _053DeadLockedSequencial.executeTest();
+            //_053DeadLockedSequencial.executeTest();
+            //_054InterlockTotal.executeTest();
+            //_055CancelToken.executeTest();
+            //_056RaisingExceptionCancelToken.executeTest();
+            _057CancelWithException.executeTest();
 
         }
     }
