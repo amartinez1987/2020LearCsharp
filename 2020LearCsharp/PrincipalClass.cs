@@ -55,7 +55,13 @@ namespace _2020LearCsharp
             //_054InterlockTotal.executeTest();
             //_055CancelToken.executeTest();
             //_056RaisingExceptionCancelToken.executeTest();
-            _057CancelWithException.executeTest();
+            // _057CancelWithException.executeTest();
+            //_060PublishAndSuscribe.executeTest();
+            //_061EventBaseAlarm.executeTest();
+            // _061EventBaseAlarm.executeTest();
+            //_062ClassAlarm.executeTest();
+            //_063AggregatinException.executeTest();
+            _064CreateDelegate.excuteTest();
 
         }
     }
