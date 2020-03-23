@@ -61,7 +61,16 @@ namespace _2020LearCsharp
             // _061EventBaseAlarm.executeTest();
             //_062ClassAlarm.executeTest();
             //_063AggregatinException.executeTest();
-            _064CreateDelegate.excuteTest();
+            //_064CreateDelegate.excuteTest();
+            //_065ExpressionLamdaAnonymouMethod.excuteTest();
+            //_066Closures.excuteTest();
+            //_067BuiltdingDelegate1.executeTest();
+            //_069TryCatch.executeTest();
+            //_070ExceptionType.executeTest();
+            //_071CustomException.executeTest();
+            _073AggregateException.executeTest();
+            
+            
 
         }
     }
