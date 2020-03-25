@@ -68,7 +68,14 @@ namespace _2020LearCsharp
             //_069TryCatch.executeTest();
             //_070ExceptionType.executeTest();
             //_071CustomException.executeTest();
-            _073AggregateException.executeTest();
+            //_073AggregateException.executeTest();
+            //_074ValueReferenceTypes.executeTest();
+            //_076StructAlien.executeTest();
+            //_077CreateEnum.executeTest();
+            // _078CreateReferenceType.executeTest();
+            //_079UsingGenericType.executeTest();
+            //_082ExtendedMethod.executeTest();
+            _083IntArrayWrapper.executeTest();
             
             
 
