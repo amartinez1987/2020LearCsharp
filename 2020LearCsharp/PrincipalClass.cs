@@ -78,7 +78,12 @@ namespace _2020LearCsharp
             //_083IntArrayWrapper.executeTest();
             //_084Overriding.executeTest();
             //_085BoxingUnBoxing.executeTest();
-            _086TypeConversion.executeTest();
+            //_086TypeConversion.executeTest();
+            //_087BadDynamicCode.executeTest();
+            //_088InteractingWithExcel.executeTest();
+            //_089EnforceEncapsulacion.executeTest();
+            //_090AccessorMethods.executeTest();
+            _094IComparable.executeTest();
             
             
 

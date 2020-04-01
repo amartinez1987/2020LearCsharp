@@ -10,4 +10,10 @@
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>..\..\..\vsestudio2010ejecutable\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
