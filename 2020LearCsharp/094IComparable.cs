@@ -8,9 +8,9 @@ namespace _2020LearCsharp
     {
         public class BankAccount : IComparable, IAccount
         {
-             decimal _accountBalance = 0;
+            decimal _accountBalance = 0;
 
-            public BankAccount(int balance )
+            public BankAccount(int balance)
             {
                 this._accountBalance = balance;
             }
@@ -58,13 +58,13 @@ namespace _2020LearCsharp
             }
         }
 
-        internal interface IAccount
+        public interface IAccount
         {
-             void PayInFunds(decimal amountToPayIn);
+            void PayInFunds(decimal amountToPayIn);
 
-              bool WithdrawFunds(decimal amountToWithdraw);
+            bool WithdrawFunds(decimal amountToWithdraw);
 
-             decimal GetBalance();
+            decimal GetBalance();
         }
 
 
@@ -74,13 +74,13 @@ namespace _2020LearCsharp
             Random rand = new Random(1);
             for (int i = 0; i < 20; i++)
             {
-                IAccount account = new BankAccount(rand.Next(0,1000));
+                IAccount account = new BankAccount(rand.Next(0, 1000));
                 accounts.Add(account);
             }
 
             accounts.Sort();
 
-            accounts.ForEach(ac => Console.WriteLine($"Balance order : {ac.GetBalance()}")) ;
+            accounts.ForEach(ac => Console.WriteLine($"Balance order : {ac.GetBalance()}"));
             Console.ReadKey();
             Console.WriteLine("");
 
@@ -88,6 +88,10 @@ namespace _2020LearCsharp
             {
                 Console.WriteLine($"Balance order : {item.GetBalance()}");
             }
+            Console.ReadKey();
+
+            BankAccount bankAccount = new BankAccount(20);
+            Console.WriteLine($"Resultado compara {bankAccount.CompareTo("dsfasdf")}");
             Console.ReadKey();
         }
     }

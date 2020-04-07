@@ -83,11 +83,30 @@ namespace _2020LearCsharp
             //_088InteractingWithExcel.executeTest();
             //_089EnforceEncapsulacion.executeTest();
             //_090AccessorMethods.executeTest();
-            _094IComparable.executeTest();
-            
-            
+            //_094IComparable.executeTest();
+            //_095IEnumerable.executeTest();
+            //_097TerseVerbose.executeTest();
+            //_098AtributeClass.executeTest();
+            //_100CodeDoom.executeTest();
+            //_101LamdaExpressionTree.executeTest();
+            //_102ModifyExpressionTree.exectuteTest();
+            //_103AsemblyObject.executeTest();
+            //_104PropertyInfo.exeuteTest();
+            //_105MethodReflexion.executeTest();
+            //_106GarbageCollection.executeTest();
+            //_108StringBuilder.executeTest();
+            //          _109StringWriter.executeTest();
+            //_110StringReader.executeTest();
+            //_112StringSearch.executeText();
+            //_113FormatString.executeTest();
+            //_114FormatProvider.execueTest();
+            //_115Interpolacion.executeTest();
+            _116JsonDocument.executeTest();
+
+
+
+
 
         }
     }
 }
-
